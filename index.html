@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Morse Code Convertor</title>
+    <link href="src/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Morse Code Convertor</h1>
+    </header>
+    <section>
+        <textarea class="grid-item" id="input-textarea" placeholder="Enter text in English"></textarea>
+        <button class="grid-item" id="input-btn">Convert to Morse Code</button>
+        <textarea class="grid-item" id="output-textarea" placeholder="Your text in Morse Code"></textarea>
+    </section>
+    <footer>
+        <p>About:<br />
+            Morse code is a method of transmitting text information as a series of on-off tones, lights, or clicks that
+            can be directly understood by a skilled listener or observer without special equipment.</p>
+    </footer>
+
+    <script src="src/scripts/scripts.js" type="text/javascript"></script>
 </body>
+
 </html>

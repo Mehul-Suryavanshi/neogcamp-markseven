@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(250, 240, 228);
+    color:  rgb(70, 69, 69);
+    padding: 1rem;
+    text-align: center;
+}
+h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+section textarea{
+    font-size: 1.5rem;
+    height: 30vw;
+    border: solid 1px;
+    border-radius: 25px;
+}
+
+.grid-item{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#input-btn{
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: solid 1px;
+    border-radius: 25px;
+}
+
+footer{
+    font-size: 1.1rem;
+    padding: 0 30rem;
+    text-align: justify;
+}
+
+
+
+@media (max-width:660px){
+    h1{
+        font-size: 2em;
+    }
+    section{
+        grid-template-columns: auto;
+    }
+    footer{
+        padding: 0 1rem;
+    }
+}
